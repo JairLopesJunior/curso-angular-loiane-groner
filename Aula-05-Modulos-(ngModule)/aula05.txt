@@ -1,0 +1,18 @@
+// Modulos (ngModule)
+
+BrowserModule // Prepara a aplicação para ser rodada/executada em um Browser.
+
+// Aprendendo sobre os Metadados
+
+declarations:[] // Neste Metadado são adicionados os componentes, as diretivas e os pipes.
+
+imports:[] // Neste Metadado são adicionados os modulos.
+
+providers:[] // Neste Metadado são adicionados os serviços globais, Ex: Serviços de verificação de autenticação, de login ou guardas de rotas.
+
+bootstrap:[] // Nome do componente que deverá ser instanciado ao iniciar a aplicação.
+
+// Aprendendo a gerar um modulo pelo Angular/CLI
+> ng g m nomeDoModulo
+
+CommonModule // Contem diretivas e pipes comuns para o nosso uso, somente é importado em modulos criados, nunca no App.
