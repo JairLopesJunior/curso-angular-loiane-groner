@@ -1,0 +1,4 @@
+// Introdução aos Templates
+
+// Passando valor do .ts para o HTML
+{{ variavel }} == Interpolação
