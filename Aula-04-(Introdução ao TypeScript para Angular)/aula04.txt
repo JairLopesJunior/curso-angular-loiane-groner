@@ -1,0 +1,2 @@
+// TypeScript, gerando o arquivo .js
+> tsc arquivo.ts
