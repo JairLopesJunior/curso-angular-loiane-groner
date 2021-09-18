@@ -1,0 +1,14 @@
+// ANGULAR LOIANE
+=================================
+
+// Comando para criar um projeto Angular
+> ng new nomeProjeto
+
+// Exemplo de Component
+@Component({})                  // Decorator, tudo que ter dentro do decorator são chamados de MetaDados
+class MeuPrimeiroComponent {}   // Component
+selector                        // Nome da TAG HTML que a gente vai utilizar
+template                        // Nome do Arquivo HTML ou codigos HTMLs
+
+// Comando para gerar component pelo Angular/CLI
+> ng g c meu-component
