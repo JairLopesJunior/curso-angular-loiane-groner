@@ -1,0 +1,13 @@
+// Class e Style Binding
+> É uma forma de Property Binding porem a gente trabalha com CSS.
+
+// Utilizando NGX-BOOTSTRAP, para não utilizar JQuery
+
+// Comando para Instalar
+> npm i ngx-bootstrap -S
+
+// Instalando o Bootstrap
+> npm i bootstrap -S
+
+// Variavel de Template
+> #nomeDaVariavel
