@@ -1,0 +1,20 @@
+// property Binding e Interpolação
+
+// O que é Data Binding?
+> É uma forma de associar informações do Componente para o Template e vice-versa
+
+// Existem 4 tipos de Data Binding, que são:
+Interpolação: Pegamos o valor de um atributo ou metodo e teremos a saida do mesmo no Template Ex: {{ valor }}
+Property Binding (Associação de Propriedade): Também conseguimos ter a saida de um atributo do Componente para o Template Ex: [propriedade]="valor"
+(evento)="handler": Podemos escutar algum evento no Template e executar algum metodo no Componente
+Two way data binding: Conseguimos manter tanto o Template quanto o Componente atualizados ao mesmo tempo Ex: [(ngModel)]="propriedade"
+
+Obs: Podemos fazer operações matemáticas com Interpolação e logicas.
+
+// Exemplos com imagens
+
+<img src="{{ urlImagem }}"><br>
+<img [src]="urlImagem">
+
+// Quando não existir propriedade no elemento, usa-se:
+> [attr.colspan]
