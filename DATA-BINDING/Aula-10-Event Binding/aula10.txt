@@ -1,0 +1,28 @@
+// Event binding
+
+Ex: 
+<button (click)="botaoClicado()" 
+                    class="btn btn-primary">
+                    Me clique!
+</button>
+
+// No Angular podemos capturar o evento, segue o Ex:
+
+<input type="text" (keyup)="onKeyUp($event)" />
+
+// Arquivo .ts
+
+onKeyUp(event: KeyboardEvent) {
+    alert((<HTMLInputElement>event.target).value);
+}
+
+// Podemos tipar o evento utilizando "KeyboardEvent"
+
+// Utilizando variavel de Template no lugar do target
+<input  type="text" 
+   (keyup)="onKeyUp($event)" 
+   (keyup.enter)="salvarValor(campoInput.value)"
+   (blur)="salvarValor(campoInput.value)"
+   #campoInput/>
+
+<p>Valor atual: {{ valorAtual }}</p><p>Valor salvo: {{ valorSalvo }}</p>
