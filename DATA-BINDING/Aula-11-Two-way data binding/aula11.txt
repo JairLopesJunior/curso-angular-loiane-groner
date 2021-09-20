@@ -1,0 +1,7 @@
+// Two-way data binding
+
+- Valor do Template para o Componente e vice-versa
+- Usa-se binding de eventos + propriedades
+
+// ngModel é a representação de uma entidade, que pode ser uma string um objeto ...
+// Tambem existe o ngModelChange para eventos Ex: (ngModelChange)="nome = $event"
