@@ -1,0 +1,5 @@
+// Output properties - Emitindo Eventos.,
+
+EventEmitter // Esta classe é do pacote @angular/core
+Ex: @Output() mudouvalor = new EventEmitter();
+this.mudouvalor.emit( {novoValor: this.valor} ); // Este metodo emit() recebe uma string ou um objeto.
