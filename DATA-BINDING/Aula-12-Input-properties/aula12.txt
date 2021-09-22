@@ -1,0 +1,12 @@
+// Input Properties - Reutilizando os componentes
+
+Basicamente a gente consegue passar o valor de um atributo de uma classe para outra classe utilizando o @Input.
+Ex:
+@Input() nome: string = '';
+
+// O Input('parametro') aceita um parametro com o nome que deseja fazer referencia externamente.
+// Também podemos utilizar ele dentro do Decorator.
+Ex:
+@Component({
+  inputs: ['nomeCurso:nome']
+})
