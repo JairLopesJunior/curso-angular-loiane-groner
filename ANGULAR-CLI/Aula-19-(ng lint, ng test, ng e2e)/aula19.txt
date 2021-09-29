@@ -1,0 +1,8 @@
+// Angular CLI: ng lint, ng test, ng e2e
+
+ng lint // Faz o lint do nosso codigo, ou seja, vai escanear o codigo e verificar por boas práticas do Style Guide, erros de virgulas faltando entre outras coisas.
+
+
+ng test // Que executa os testes unitários
+
+ng e2e // Executa os testes do Front
