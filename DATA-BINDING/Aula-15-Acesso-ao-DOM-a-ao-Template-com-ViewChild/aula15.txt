@@ -1,0 +1,12 @@
+// Acesso ao DOM  e ao Template com ViewChild
+
+Ex: @ViewChild('campoInput') campoValorInput: ElementRef | undefined;
+
+campoInput // É a variavel de Template utilizada na VIEW.
+
+Podemos utilizar HTMLElement para verificar qual nome correto do Evento, neste caso é ElementRef.
+
+// Obtendo o valor do INPUT
+
+this.campoValorInput.nativeElement.value++;
+
