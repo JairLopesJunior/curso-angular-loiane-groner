@@ -1,0 +1,56 @@
+// Angular CLI: Estrutura do projeto
+
+Pra que serve o Angular CLI?
+
+- Cria toda a estrutura do projeto.
+
+- Gera página HTML inicial, arquivos TypeScript iniciais, arquivos CSS  e arquivos de testes unitários.
+
+- Cria arquivo package.json com todas as dependências do Angular 2.
+
+- Instala todas as dependências do node (npm install).
+
+- Configura o Karma para executar os testes unitários com Jasmine.
+
+- Configura Protactor para executar os testes end-to-end (E2E).
+
+- Inicializa um repositório git no projeto e faz o commit inicial.
+
+- Cria todos os arquivos necessários para fazer o build da aplicação para produção.
+
+// Estrutura de diretórios do projeto
+
+config - Diretório que contém configuração para deploy/build e teste.
+
+dist - Diretório onde é gerado o build da aplicação. Ignorado pelo git
+
+e2e - Diretório que contém os scripts para teste end-to-end
+
+node_modules - Diretório que contém os pacotes npm da app (package.json). Também ignorado pelo git
+
+public - diretório genérico que contém um arquivo .npmignore
+
+src - Diretório do código fonte da aplicação. COntém código typeScript/javaScript, CSS, imagens e templates HTML.
+
+angular-cli.json - Arquivo que contém informações sobre o projeto e build de produção, como nome do projeto, config de onde encontrar os arquivos fontes da app, config de testes, etc.
+
+tslint.json - arquivo que contém configurações para fazer lint da app.
+
+
+// Estrutura package.json: Dependencies
+
+@angular/ core - Pacote principal do Framework Angular 2. Contém decorators e metadados, Component, Directive, injeção de dependência e os hooks de ciclo de vida do Component.
+
+@angular/commom - Serviços, pipes, diretivas comuns fornecidas pelo time de dev do ANgular.
+
+@angular/compiler - Template de compilação do angular. Entende o código dos templates e converte em código que faz a app ser executada e renderizada. Desenvolvedores não interagem com esse pacote diretamente (apenas usamos seu código).
+
+@angular/forms - Contém todo o código para construção de formulários no Angular 2.
+
+@angular/platform-browser - Contém todo o código relacionado ao DOM e ao browser, especialmente as parte que ajudam a renderizar o DOM, Esse pacote também contém o método para fazer o bootstrap da aplicação para builds de produção que pré-compila os templates.
+
+@angular/platform-browser-dynamic - Contém os Providers e o método para iniciar as aplicações que compilam templates no lado cliente. Não usa compilação offline. Usada para fazer bootstrap durante desenvolvimento e exemplos plunker.
+
+@angular/http - Fornece o cliente HTTP.
+
+@angular/router - Classes de roteamento.
