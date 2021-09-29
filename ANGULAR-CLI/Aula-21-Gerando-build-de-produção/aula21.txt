@@ -1,0 +1,29 @@
+// Angular CLI: Gerando build de DEV e Produção
+
+Existem essas quatro opções para gerar o build de DEV:
+
+> ng build --target=development --environment=dev
+
+> ng build --dev --e=dev
+
+> ng build --dev
+
+> ng build // É o recomendado
+
+
+// O build irá ser gerado dentro da pasta dist
+
+// O Build de DEV ainda não obfuscado e nem minificado, então ainda tem o código todo junto em um arquivo só, porem ainda identado e com os nomes das variaveis.
+
+
+Existem essas três opções para gerar o build de Produção:
+
+> ng build --target=production --environment=prod
+
+> ng build --prod --env=prod
+
+> ng build --prod
+
+// Obfusca e minifica o código JS da aplicação
+
+// CSS e templates HTML já minificados e incluídos em main.bundle.js
