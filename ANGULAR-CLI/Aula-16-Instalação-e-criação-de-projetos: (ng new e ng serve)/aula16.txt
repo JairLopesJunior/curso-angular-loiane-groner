@@ -1,0 +1,27 @@
+// Angular CLI: Instalação e criação de projetos: ng new, ng init e ng serve
+
+Angular CLI // É a ferramenta de linha de comando do Angular para poder criar projetos e no final também fazer build para colocar o projeto em Produção.
+
+// Instalação do Angular CLI
+
+> npm install -g angular/cli
+
+Obs: Requer node >= 4.
+
+// Criando um Projeto
+
+> ng new nomeProjeto
+
+> cd nomeProjeto
+
+> ng serve
+
+// Criando projeto em diretorio existente
+
+> mkdir nomeProjeto
+
+> cd nomeProjeto
+
+> ng init
+
+> ng serve
