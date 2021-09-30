@@ -1,0 +1,22 @@
+// Introdução e tipos de diretivas no Angular
+
+O que são Diretivas?
+
+> É uma forma de passar instruções para o nosso Template.
+
+<ul>
+  <li *ngFor="let curso of cursos">
+    {{ curso }}
+  </li>
+</ul>
+
+// Itere todos os cursos, e a cada iteração, atribua o valor do elemento atual á uma variável curso. Replique também o elemento <li> com valor da variável curso a cada iteração.
+
+
+// Existem esses dois tipos de diretivas
+
+Diretiva Estruturais - Interagem com a view e modificam a estrutura do DOM e/ou código HTML.
+Ex: *ngFor e *ngIf
+
+Diretivas de atributos - Interagem com o elemento em que foram aplicadas
+Ex: ng-class e ng-style
