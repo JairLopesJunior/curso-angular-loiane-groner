@@ -1,0 +1,17 @@
+// Diretivas: ngIf
+
+Ex: 
+
+<div *ngIf="cursos.length > 0">
+  Lista de cursos aqui.
+</div>
+
+// Tomar cuidado ao utlizar variaveis boolean para mostrar ou não elementos, pois o mesmo destroi o elemento sendo custoso para o DOM. Dê preferência para utilizar o hidden.
+
+Quando utilizar hidden e ngIf
+
+[hidden] // Recomendado para árvore de elementos pequenas. 
+
+*ngIf // Recomendado para árvore de elementos grandes. // Obs: Hidden é menos custoso para criar.
+
+Obs: O hidden deixa o código exposto no DOM, então sempre dar preferencia para mostrar ou não elementos não relacionados a segurança.
