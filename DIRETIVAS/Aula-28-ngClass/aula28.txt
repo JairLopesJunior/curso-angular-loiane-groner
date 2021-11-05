@@ -1,0 +1,25 @@
+// ngClass é a Diretiva de Classe do Angular
+
+Ex: 
+
+<h1>
+  <!--Class Binding (class.glyphicon-star-empty)-->
+  <i
+    class="glyphicon"
+    [class.glyphicon-star-empty]="!meuFavorito"
+    [class.glyphicon-star]="meuFavorito"
+    (click)="onClick()"
+  ></i>
+</h1>
+
+<h1>
+  <!--Class Binding (class.glyphicon-star-empty)-->
+  <i
+    class="glyphicon"
+    [ngClass]="{
+      'glyphicon-star-empty': !meuFavorito,
+      'glyphicon-star': meuFavorito
+    }"
+    (click)="onClick()"
+  ></i>
+</h1>
