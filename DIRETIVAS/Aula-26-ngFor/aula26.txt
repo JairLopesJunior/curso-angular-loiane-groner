@@ -1,0 +1,13 @@
+// *ngFor
+
+Itera um array através do for.
+
+Ex:
+
+Component: cursos: string[] = ['Angular2', 'Java', 'JavaScript'];
+
+HTML: <li *ngFor="let curso of cursos">{{ curso }}</li>
+
+Também podemos declarar o index, Ex:
+
+<li *ngFor="let curso of cursos, let i = index">{{ i + 1 }} {{ curso }}</li>
