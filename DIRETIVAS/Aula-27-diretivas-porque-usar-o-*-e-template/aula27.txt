@@ -1,0 +1,18 @@
+// O porque de usar o * e <template>
+
+O Angular utiliza * que é uma sintaxe simplificada para a gente não ter que ter um trabalho maior.
+
+Por tráz dos panos o Angular na verdade utiliza isso:
+
+Para o IF:
+<ng-template [ngIf]="mostrarCursos"></ng-template>
+
+Para o FOR:
+
+<ul>
+  <ng-template ngFor [ngForOf]="cursos" let-curso let-i="index">
+    <li>{{ i + 1 }} - {{ curso }}</li>
+  </ng-template>
+</ul>
+
+Para o NGSWITCH:
