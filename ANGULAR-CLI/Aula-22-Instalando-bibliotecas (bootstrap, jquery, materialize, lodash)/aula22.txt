@@ -1,0 +1,40 @@
+// Angular CLI: Instalando bibliotecas (bootstrap, jquery, materialize, lodash)
+
+// Instalando o bootstrap
+
+> npm install --save bootstrap@next
+
+// Adicionar as seguintes linhas no arquivo angular.json
+
+"styles": [
+  "style.css",
+  "./node_modules/bootstrap/dist/css/bootstrap.css
+  "
+],
+
+// Instalando angular2-materialize
+
+>  npm install --save materialize-angular
+
+
+// Adicionar as seguintes linhas no arquivo angular.json
+
+"scripts": [
+  "./node_modules/jquery/dist/jquery.js",
+  "./node_modules/materialize-css/dist/js/materialize.js"
+],
+
+// Adicionar no arquivo style.css
+
+>  @import "../node_modules/materialize-css/dist/css/materialize.css";
+
+
+// Instalando o lodash - Lodash é uma biblioteca JavaScript que fornece funções utilitárias para tarefas comuns de programação usando o paradigma de programação funcional.
+
+> npm install --save lodash
+
+> npm install --save @types/lodash
+
+// Adicionar a importação no Component
+
+> import * as _ from 'lodash';
