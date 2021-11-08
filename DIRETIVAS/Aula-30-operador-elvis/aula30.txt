@@ -1,0 +1,5 @@
+// Operador Elvis ('?')
+
+<p>Responsável: {{ tarefa.responsavel?.usuario?.nome }}</p>
+
+? // Operador Elvis, se não existir não mostra nada
