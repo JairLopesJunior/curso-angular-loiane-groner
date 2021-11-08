@@ -1,0 +1,46 @@
+// ng-content
+
+Ex: 
+
+App.component.ts
+
+<app-exemplo-ng-content>
+  Conteudo passado para o componente
+</app-exemplo-ng-content>
+
+
+ArquivoQualquer.component.ts
+
+<div class="panel panel-default">
+  <div class="panel-heading">Titulo</div>
+  <div class="panel-body">
+    <ng-content></ng-content>
+  </div>
+</div>
+
+// Utilizar a tag <ng-content> para receber o conteudo passado.
+
+
+- Se quiser passar varias conteudos e especificar cada um, utilizar o select
+
+Ex:
+
+App.component.ts
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <ng-content select=".titulo"></ng-content>
+  </div>
+  <div class="panel-body">
+    <ng-content select=".corpo"></ng-content>
+  </div>
+</div>
+
+
+ArquivoQualquer.component.ts
+
+<app-exemplo-ng-content>
+  <div class="titulo">Titulo</div>
+  <div class="corpo">Conteudo passado para o componente</div>
+</app-exemplo-ng-content>
+
