@@ -1,0 +1,7 @@
+// Criando uma diretiva de atributo: ElementRef e Renderer
+
+ElementRef // Faz referencia ao elemento do DOM.
+
+Renderer // É o renderizador, também responsável por fazer manipulação no DOM.
+
+Diretiva // É como se fosse um componente sem template.
