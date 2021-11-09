@@ -1,0 +1,36 @@
+// Diretivas: HostListener HostBinding
+
+HostListener // É o elemento hospedeiro da tag P
+
+Ex:
+
+@HostListener("mouseenter") onMouseOver() {
+    this._renderer.setElementStyle(
+      this._elementRef.nativeElement,
+      "background-color",
+      "yellow"
+    );
+    this.backgroundColor = "yellow";
+  }
+
+  @HostListener("mouseleave") onMouseLeaver() {
+    this._renderer.setElementStyle(
+      this._elementRef.nativeElement,
+      "background-color",
+      "white"
+    );
+    this.backgroundColor = "white";
+  }
+  
+  
+Ex 2:
+
+  @HostListener("mouseenter") onMouseOver() {
+    this.backgroundColor = "yellow";
+  }
+
+  @HostListener("mouseleave") onMouseLeaver() {
+    this.backgroundColor = "white";
+  }
+
+@HostBinding("style.backgroundColor") backgroundColor: string;
