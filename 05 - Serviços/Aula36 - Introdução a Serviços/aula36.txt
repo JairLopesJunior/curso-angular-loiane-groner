@@ -1,0 +1,10 @@
+Introdução a Serviços
+
+
+SERVIÇO - São responsáveis a BUSCAR/ENVIAR dados aos servidores.
+
+SERVIÇO - DRY: Don't Repeat YourSelf!
+
+- Serviços fornece lógica de negócio e evita código duplicado.
+
+- Também podemos ter Classes utilitárias no serviço.
