@@ -1,0 +1,30 @@
+Injeção de Dependência (DI) + como usar um serviço em um componente.
+
+O que é Dependência?
+
+       Classe 1 precisa da OutraClasse para funcionar
+ ______________                           ______________
+|   CLASSE 1   | <---------------------- | OUTRA CLASSE |
+ --------------                           --------------
+
+
+
+
+Injetando dependências na classe:
+
+       Significa que não deveriamos instanciar
+             a OutraClasse manualmente
+
+                              Injetando a dependência automaticamente
+        ________________________________
+       |                                |
+       V                                |
+ ______________    Dependência   _______|______
+|   CLASSE 1   | <------------- | OUTRA CLASSE |
+ --------------                  --------------
+
+Existem 3 maneiras de fazer a Injeção de Dependência:
+
+- Construtores
+- Métodos setters
+- Atributos
