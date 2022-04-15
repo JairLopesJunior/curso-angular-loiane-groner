@@ -1,0 +1,1 @@
+Escopo de instâncias de serviços e módulos (Singleton e várias instâncias).
