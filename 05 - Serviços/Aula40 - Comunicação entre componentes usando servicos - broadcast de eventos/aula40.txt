@@ -1,0 +1,2 @@
+Comunicação entre componentes usando serviços (Broadcast de eventos).
+
