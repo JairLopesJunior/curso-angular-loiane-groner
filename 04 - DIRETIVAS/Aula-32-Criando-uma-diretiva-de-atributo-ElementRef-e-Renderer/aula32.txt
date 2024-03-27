@@ -5,3 +5,6 @@ ElementRef // Faz referencia ao elemento do DOM.
 Renderer // É o renderizador, também responsável por fazer manipulação no DOM.
 
 Diretiva // É como se fosse um componente sem template.
+
+Obs: Tomar cuidado ao utilizar o ElementRef, por que ele faz aesso diretamente a TAG do DOM e isso pode trazer vulnerabilidades
+para aplicação, como até ataques do tipo XSS.
