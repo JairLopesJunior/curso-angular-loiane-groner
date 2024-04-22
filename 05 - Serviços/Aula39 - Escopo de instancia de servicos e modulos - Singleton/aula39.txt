@@ -1,1 +1,3 @@
 Escopo de instâncias de serviços e módulos (Singleton e várias instâncias).
+
+Se declarar o providers: [ClasseService] dentro do decorator @Component irá criar uma instancia do service somente para aquele componente
