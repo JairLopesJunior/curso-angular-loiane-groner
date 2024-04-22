@@ -1,0 +1,4 @@
+Pipes (usando pipes, parâmetros e pipes aninhados)
+
+O que um pipe faz?
+R: O pipe ele transforma um valor e podemos exibir o valor transformado dentro de um template.
