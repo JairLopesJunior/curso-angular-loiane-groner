@@ -1,0 +1,21 @@
+Aplicando Locale (internacionalização) nos Pipes
+
+Para usar a internacionalização com LOCALE precisamos ir no module e adicionar no providers do import @angular/core:
+
+{
+      provide: LOCALE_ID,
+      useValue: 'pt-BR'
+}
+
+Se aparecer algum erro tente adicionar este import no arquivo polyfills.ts:
+
+import '@angular/common/locales/global/pt';
+
+Outra forma de fazer:
+
+SettingsService,
+{
+  provide: LOCALE_ID,
+  deps: [SettingsService],
+  useFactory: (settingsService: SettingsService) => settingsService.getLocale()
+}
