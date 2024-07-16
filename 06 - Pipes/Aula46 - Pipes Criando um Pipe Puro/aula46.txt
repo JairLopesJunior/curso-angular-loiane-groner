@@ -1,0 +1,7 @@
+Pipes: Criando um Pipe "Puro"
+
+
+Não filtre arrays com Pipe em projetos reais!!
+
+O Pipe puro não olha as modificações do valor que é passado por parametro
+para o metodo transform.
