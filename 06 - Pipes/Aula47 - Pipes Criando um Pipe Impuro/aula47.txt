@@ -1,0 +1,8 @@
+Pipes: Criando um Pipe "Impuro"
+
+Um Pipe impuro mesmo o valor do metodo transform, ou seja, que é recebido pelo Pipe é modificado
+o Pipe continuar funcionando com as mudanças deste valor.
+
+Por padrão a criação de um Pipe vem com o atributo pure true, ou seja, o pipe é puro.
+
+Não utilizar em Produção e não deve criar Pipe para fazer OrderBy ou Filtros.
