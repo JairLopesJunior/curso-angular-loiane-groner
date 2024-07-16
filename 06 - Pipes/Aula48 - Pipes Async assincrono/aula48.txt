@@ -1,0 +1,4 @@
+Pipes Async (assincrono)
+
+O Pipe assincrono serve para a gente conseguir fazer a saida de um valor no template, mesmo que o valor a ser atribuido a esse atributo demore
+um pouquinho.
