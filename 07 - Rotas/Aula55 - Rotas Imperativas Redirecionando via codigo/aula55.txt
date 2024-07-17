@@ -1,0 +1,3 @@
+Rotas Imperativas: Redirecionando via código
+
+Router = Classe que contem metodos para redirecionar rotas pelo codigo
