@@ -1,0 +1,6 @@
+Criando um modulo de funcionalidade
+
+
+Serve para organizar melhor e também para se preparar para o crescimento do projeto.
+
+Quando criado modulos para componentes/pastas especificas esses são chamados de modulos de funcionalidades.
