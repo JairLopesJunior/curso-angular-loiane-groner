@@ -1,0 +1,16 @@
+Rotas: Definindo e extraindo parametros de url (query)
+
+
+?pagina=1 = É uma forma de passar parametros opcionais nas rotas em angular (Chamado de parametro de query)
+
+[queryParams]="{pagina:1}" = Serve para passar parametros para rota
+
+
+Obtendo o parametro da rota:
+ngOnInit(): void {
+  this.route.queryParams.subscribe(
+    (queryParam: any) => {
+      this.pagina = queryParam['pagina'];
+    }
+  )
+}
