@@ -1,0 +1,13 @@
+Rotas: Definindo e extraindo parametros de roteamento
+
+Ex de uma rota com parametro:
+{ path: 'curso/:id', component: CursosComponent }
+No :id pode ser qualquer nome.
+
+[routerLink]="['curso', idCurso.value]" = Também pode ser utilizado como propertyBind
+
+
+Obtendo o ID da rota no componente:
+constructor(private route: ActivatedRoute) {
+  this.id = this.route.snapshot.params['id'];
+}
