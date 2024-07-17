@@ -1,0 +1,4 @@
+Rotas: Criando um modulo de rotas
+
+
+Trabalhar com module é mais elegante e depois de criar um modulo precisa importar no modulo App.
