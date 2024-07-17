@@ -1,0 +1,3 @@
+Rotas Filhas: desenvolvendo as telas
+
+Desenvolvendo as telas com aluno e alunoDetalhe na mesma pagina e alterar a rota conforme o id
