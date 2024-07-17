@@ -1,0 +1,23 @@
+Rotas: Escutando mudanças nos parametros de roteamento
+
+Existem 2 problemas em obter no metodo anterior:
+
+1- No construtor, ou seja, quando a classe é inicializada.
+2- Obtem somente a foto da primeira foto e assim não consegue obter o valor do primeiro parametro.
+
+inscricao: Subscription;
+
+Forma mais elegante de se fazer isso:
+ngOnInit(): void {
+  this.inscricao = this.route.params.subscribe((param: any) => {
+    this.id = param['id'];
+  });
+}
+
+ngOnDestroy(): void {
+  this.inscricao.unsubscribe();
+}
+
+
+Mesmo depois que o Componente é destruido a inscrição pode continuar viva 
+e isso não é interessante.
