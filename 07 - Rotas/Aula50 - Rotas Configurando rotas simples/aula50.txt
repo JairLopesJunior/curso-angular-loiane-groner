@@ -1,0 +1,9 @@
+Rotas: Configurando rotas simples
+
+As rotas são composta de um objeto, e este objeto possui alguns atributos.
+
+path = Caminho, ou seja, a rota
+
+component: O componente que será renderizado
+
+<router-outlet> = O componente da rota é renderizado dentro dessa tag. Permite que o Angular ter suporte a rotas.
