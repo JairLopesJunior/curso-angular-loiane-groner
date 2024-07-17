@@ -1,0 +1,3 @@
+Rotas: Aplicando CSS em rotas ativas
+
+routerLinkActive = Serve para atribuir um CSS ao item da rota ativa no menu.
