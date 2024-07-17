@@ -1,0 +1,8 @@
+Rotas: Dica de Performance: Carregamento sob demanda (lazy loading)
+
+Primeiro passo é organizar a aplicação em modulos por que fica mais facil para configurar o Lazy Loading
+Quando utilizar o Lazy Loading não pode ter o Module filho importado em nenhum outro module.
+
+Dentro do arquivo app.routing.module.ts usar o seguinte comando.
+
+{ path: 'Cursos', loadChildren: 'app/cursos/cursos.module#CursosModule' }
