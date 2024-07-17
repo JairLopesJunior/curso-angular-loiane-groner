@@ -1,0 +1,16 @@
+Rotas Filhas
+
+Dica para evitar colisão de rotas é colocar por prioridade na frente.
+
+Evitar repetição de nomes declarando rotas filhas
+
+Para declarar rotas filhas utilizamos o children que é um array
+
+Ex:
+{path: 'alunos', component: Component, children: [
+  {path: 'novo', component: FormComponent},
+  {path: ':id', component: DetalheComponent},
+  {path: ':id/editar', component: FormComponent},
+]}
+
+Quando utilizar rotas filhas precisa utilizar o <router-outlet> no template do pai também, no caso Alunos
