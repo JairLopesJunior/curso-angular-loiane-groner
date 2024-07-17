@@ -1,0 +1,7 @@
+Rotas: Criando um modulo de rotas de funcionalidade
+
+Criando um modulo de rotas de funcionalidade, ou seja, as rotas de determinado componente/pasta será passado para um modulo de rotas dele.
+
+Muito importante quando for modulo de funcionalidade se utiliza o RouterModule.forChild(routes);
+
+Depois é somente importar este novo module de rotas no modulo deste componente.
