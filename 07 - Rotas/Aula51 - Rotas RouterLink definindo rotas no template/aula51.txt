@@ -1,0 +1,3 @@
+Rotas: RouterLink: definindo rotas no template
+
+routerLink = Serve para redirecionar para alguma rota.
