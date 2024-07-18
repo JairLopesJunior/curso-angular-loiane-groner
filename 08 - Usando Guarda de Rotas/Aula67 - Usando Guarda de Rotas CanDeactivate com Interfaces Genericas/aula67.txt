@@ -1,0 +1,9 @@
+Usando Guarda de Rotas: CanDeactivate com Interface Genérica
+
+Criando uma interface com typescript:
+export interface IFormCanDeactivate {
+  podeDesativar();
+}
+
+Colocar no Arquivo AlunosDeactivateGuard a interface assim todos que implementar a interface terão aquele metodo
+export class AlunosDeactivateGuard implements CanDeactivate<IFormCanDeactivate> 
