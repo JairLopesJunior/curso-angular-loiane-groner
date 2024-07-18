@@ -1,0 +1,6 @@
+Usando Guarda de Rotas: CanActivateChild
+
+CanActivateChild é muito similar ao CanActivate, porem serve para as rotas filhas, então pode criar um arquivo com este nome por exemplo curso.guard.ts
+Pode criar um guarda de rota generico ou um para cada module do projeto.
+
+canactivateChild: [CursoGuard] = Utiliza-se assim:
