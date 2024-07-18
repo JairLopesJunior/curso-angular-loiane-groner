@@ -1,0 +1,3 @@
+Estilo de url: HTML5 ou usando #
+
+RouterModule.forRoot(routes, {useHash: true})
