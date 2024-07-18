@@ -1,0 +1,3 @@
+Usando Guarda de Rotas: CanDeactivate
+
+CanDeactivate é uma guarda de rota para verificar se o usuário pode detativar aquela rota
