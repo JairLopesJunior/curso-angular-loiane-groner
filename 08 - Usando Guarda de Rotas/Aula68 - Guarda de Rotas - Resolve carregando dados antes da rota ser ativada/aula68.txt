@@ -1,0 +1,3 @@
+Guarda de Rotas: Resolve: carregando dados antes da rota ser ativada
+
+Resolve: É o responsável por carregar dados antes da rota ser ativada.
