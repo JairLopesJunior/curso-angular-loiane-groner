@@ -1,0 +1,5 @@
+Usando Guarda de Rotas: CanActivate
+
+Guarda de Rota é um serviço escecial que implementa determinado metodo e este metodo é utilizado como guarda de rota.
+
+Geralmente criar uma pasta na raiz com o nome guards e um serviço com o nome auth-guard
