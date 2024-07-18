@@ -1,0 +1,3 @@
+Rotas: Tela de Login e como não mostrar o Menu (NavBar)
+
+Preparando o codigo para autenticação da proxima aula.
