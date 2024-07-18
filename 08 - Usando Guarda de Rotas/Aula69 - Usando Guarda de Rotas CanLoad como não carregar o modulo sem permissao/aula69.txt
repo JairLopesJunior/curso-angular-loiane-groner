@@ -1,0 +1,14 @@
+Usando Guarda de Rotas: CanLoad: como não carregar o módulo sem permissão
+
+É uma maneira de não deixar o usuário carregar o module sem permissão
+
+CanLoad = Interface
+
+Exemplo de uso para evitar carregar o modulo caso não esteja autenticado:
+
+canLoad: [AuthGuard] = Na rota colocar assim
+
+Metodo:
+canLoad(route:Route): boolean {
+  return true;
+}
