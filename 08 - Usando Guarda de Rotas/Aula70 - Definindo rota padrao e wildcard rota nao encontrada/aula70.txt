@@ -1,0 +1,7 @@
+Definindo rota padrão e wildcard (rota não encontrada)
+
+Caso não configure uma url/rota não encontrada irá ter um erro no console
+
+prefix: É para rota filha
+
+full: Para rota vazia
