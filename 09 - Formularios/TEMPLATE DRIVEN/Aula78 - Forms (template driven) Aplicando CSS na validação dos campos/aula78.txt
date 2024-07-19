@@ -1,0 +1,8 @@
+Forms (template driven) Aplicando CSS na validação dos campos
+
+ESTADO DO CAMPOS DO FORM
+
+Estado                 SIM                     NÃO
+Controle visitado      ng-touched              ng-untouched
+Valor Mudou            ng-dirty                ng-pristine
+Controle válido        ng-valid                ng-invalid
