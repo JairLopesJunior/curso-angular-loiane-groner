@@ -1,0 +1,3 @@
+Forms (template driven) Desabilitando o botão de submit para formulário inválido
+
+[disabled]="!f.valid" = Comando para desabilitar
