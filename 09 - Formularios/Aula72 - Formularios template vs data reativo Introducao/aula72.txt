@@ -1,0 +1,18 @@
+Formulários (template vs data / reativo) Introdução
+
+Angular tem duas formas para se trabalhar com formulários que é o template driven e o data driven
+
+Diferenças:
+
+Template Driven:
+- Formulário é criado e configurado no HTML
+- Validações são feitas no template HTML
+- Angular cria/deduz um FormGroup do codigo HTML
+- Valores do form são submetidos com ngSubmit
+
+
+Data Driven (Reativo)
+- Formulário é criado e configurado no Componente
+- Validações são feitas no Component
+- Angular usa o FormGroup criado no Component
+- Form já está no Component e não precisa do ngSubmit
