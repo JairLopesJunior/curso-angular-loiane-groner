@@ -1,0 +1,9 @@
+Forms (template driven) Form groups (agrupando dados)
+
+
+ngModel = Serve para cada campo
+
+ngModelGroup = Serve para um grupo de campos
+Ex:
+<div ngModelGroup="endereco"></div>
+Saída: "endereco" {}
