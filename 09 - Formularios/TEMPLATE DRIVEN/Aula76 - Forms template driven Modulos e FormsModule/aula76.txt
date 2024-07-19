@@ -1,0 +1,3 @@
+Forms (template driven) Módulos e FormsModule
+
+Sempre importar o FormsModule independente do tipo de formulario escolhido
