@@ -1,0 +1,9 @@
+Forms (Template Driven) Controles ngForm, ngSubmit e ngModel
+
+#f="ngForm" = Falando para o Angular ajudar a gerenciar
+
+(ngSubmit) = Evento do Angular
+
+Por tráz dos panos o Angular cria um formulário reativo
+
+ngModel = Associando cada campo ao formulário
