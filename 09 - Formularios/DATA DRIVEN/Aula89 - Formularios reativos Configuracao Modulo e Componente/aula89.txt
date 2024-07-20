@@ -1,0 +1,5 @@
+Formularios reativos: Configuração (Módulo e Componente)
+
+No formulario reativo todo o codigo fica dentro do componente e no template fica somente a estrutura.
+
+formulario!: FormGroup; = Variavel que representa o Formulario, onde será adicionado os campos, validações e agrupar dados.
