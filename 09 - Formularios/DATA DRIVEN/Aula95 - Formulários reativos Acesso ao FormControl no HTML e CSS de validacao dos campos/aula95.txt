@@ -1,0 +1,5 @@
+Formulários reativos: Acesso ao FormControl no HTML e CSS de validação dos campos
+
+this.formulario.controls['nome'] = Acessa um controle específico pelo nome
+
+this.formulario.get('nome') = Ele permite acessar controles usando um caminho de string, que pode incluir controles aninhados.
