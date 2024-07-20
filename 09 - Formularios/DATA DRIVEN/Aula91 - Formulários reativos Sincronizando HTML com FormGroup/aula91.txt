@@ -1,0 +1,6 @@
+Formulários reativos: Sincronizando HTML com FormGroup
+
+formGroup = Diretiva do Angular
+[formGroup]="formulario" = Serve para sincronizar a variavel formulario com o template
+
+No template em cada input colocar o formControlName para linkar cada campo com o nome que esta no componente
