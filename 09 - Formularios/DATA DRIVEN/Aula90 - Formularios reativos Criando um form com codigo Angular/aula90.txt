@@ -1,0 +1,14 @@
+Formulários reativos: Criando um form com código Angular
+
+
+this.formulario = new FormGroup(); = Instancia o FormGroup e adiciona Controler de formulario/formControl dentro.
+
+FORMA VERBOSA DE CRIAR:
+nome: new FormControl() = Primeiro parametro é o valor inicial
+
+FORMA USANDO O FORMBUILDER:
+formBuilder = É o construtor de formulario que será injetado no construtor
+this.formulario = this._formBuilder.group({
+      nome: [null],
+      email: [null]
+});
