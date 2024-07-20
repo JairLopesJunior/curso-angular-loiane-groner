@@ -1,0 +1,5 @@
+Formulários reativos: Aplicando validação nos campos
+
+Dentro de cada formControl/de cada campo podemos passar um segundo parametro que é a validação
+
+Validators = Classe para validar do Angular.
