@@ -1,0 +1,14 @@
+Formulários reativos: Form froups (agrupando dados)
+
+Existem essas duas formas:
+endereco: new FormGroup({
+  cep: ....
+});
+
+endereco: this._formBuilder.group({
+  cep: ....
+});
+
+Para associar ao template no template driven utiliza-se o ngModelGroup="endereco"
+
+E para associar no data driven usa-se formGroupName="endereco"
