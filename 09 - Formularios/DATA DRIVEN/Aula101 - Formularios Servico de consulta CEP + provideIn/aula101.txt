@@ -1,0 +1,4 @@
+Formulários: Serviço de consulta CEP + provideIn
+
+provideIn foi adicionado no Angular e com isso não é mais necessário adicionar o service no module por que
+o Angular é inteligente o suficiente para saber onde esta sendo utilizado.
