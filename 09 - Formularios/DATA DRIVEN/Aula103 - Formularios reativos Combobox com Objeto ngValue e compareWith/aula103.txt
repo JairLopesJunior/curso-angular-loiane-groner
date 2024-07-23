@@ -1,0 +1,9 @@
+Formulários reativos: Combobox com Objeto (ngValue e compareWith)
+
+O Angular sempre trabalha com comparação de 3 iguais, por padrão o Angular verifica apenas o endereço de memoria
+quando trabalha com select.
+
+Se quiser comparar os valores precisa utilizar ngValue em vez de value
+
+Existe a propriedade compareWith para indicar ao Angular quais valores devem ser comparados, esta propriedade 
+é utilizada no select
