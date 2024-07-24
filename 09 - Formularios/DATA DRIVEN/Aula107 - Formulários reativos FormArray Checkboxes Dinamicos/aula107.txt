@@ -1,0 +1,5 @@
+Formulários reativos: FormArray: Checkboxes Dinâmicos
+
+Quando trabalhamos com multiplos campos checkbox precisamos utilizar o FormArray
+
+formArrayName = Passar o nome do array utilizado
